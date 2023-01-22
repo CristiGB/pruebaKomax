@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./src/css/globals.css">
+    <link rel="stylesheet" href="./src/css/header.css">
+    <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href="./src/css/footer.css">
+    <link rel="stylesheet" href="./src/css/breakpoints.css">
+    <title>STOKED</title>
+</head>
+<body>
+    <header class="header" id="header" >
+        <nav class="navbar" role="navigation">
+           <div class="navbar__top flex" >
+                <a href="/" class="navbar_contact flex">
+                    <p>Asesoramiento, preguntas técnicas y más en @stokedchile </p>
+                    <i class="ri-instagram-line"></i>
+                </a>
+                <div class="navbar__buttons">
+                    <a href="">
+                        <i class="ri-user-line"></i>
+                    </a>
+                    <a href=""class="button-hidden" data-field="buttonToHidden">
+                        <i class="ri-truck-line"></i>
+                    </a>
+                    <a href=""  >
+                        <i class="ri-shopping-cart-2-line"></i>
+                    </a>
+                    <a href=" "class="button-hidden" data-field="buttonToHidden">
+                        <i class="ri-store-line"></i>
+                    </a>
+                    <!-- Toggle Button -->
+                    <div class="navbar__toggle" id="nav__toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                </div>          
+           </div>
+           <figure class="navbar__logo">
+                <img src="./src/assets/imgs/logo.png" alt="">
+            </figure>
+
+            <!-- dropdown menu in mob -->
+            <div class="background__menu" id="nav__close"></div>
+            <div class="navbar__menu flex" id="nav__menu">
+                <figure class="menu__logo">
+                    <img src="./src/assets/imgs/logo.png" alt="">
+                </figure>
+                <ul class="list__menu flex">
+                    <li><a href="/" class="nav__link nav-active">
+                        <P>Trajes de agua</P> <i class="ri-arrow-down-s-line"></i>
+                    </a></li>
+                    <li><a href="/" class="nav__link">
+                        <P>Hombre</P> <i class="ri-arrow-down-s-line"></i>
+                    </a></li>
+                    <li><a href="/" class="nav__link">
+                        <P>Mujer</P> <i class="ri-arrow-down-s-line"></i>
+                    </a></li>
+                    <li><a href="/" class="nav__link">
+                        <P>Niños</P> <i class="ri-arrow-down-s-line"></i>
+                    </a></li>
+                    <li><a href="/" class="nav__link">
+                        <P>Accesorios</P> <i class="ri-arrow-down-s-line"></i>
+                    </a></li>
+                    <li><a href="/" class="nav__link">
+                        <P>Equipamiento</P> <i class="ri-arrow-down-s-line"></i>
+                    </a></li>
+                    <li><a href="/" class="nav__link">
+                        <P>Sale</P> </i>
+                    </a></li>
+
+                    <!-- links hidden-->
+                    <li class="nav__link-hidden"><a href="/" class="nav__link ">
+                        <p>Chatea con nosotros</p> <i class="ri-wechat-line"></i>
+                    </a></li>
+                    <li class="nav__link-hidden"><a href="/" class="nav__link">
+                        <p>Seguimineto de pedidos</p> <i class="ri-truck-line"></i>
+                    </a></li>
+                    <li class="nav__link-hidden"><a href="/" class="nav__link">
+                        <p>Nuestras tiendas</p> <i class="ri-store-line"></i>
+                    </a></li>
+                    <li class="nav__link-hidden"><a href="/" class="nav__link">
+                        <p>Mi cuenta</p> <i class="ri-user-line"></i>
+                    </a></li>
+                </ul>
+            
+            </div>
+
+            <div class="search-container flex">
+                <button type="button">
+                    <i class="ri-search-line"></i>
+                </button>
+                <input type="text" placeholder="BUSCAR">
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home">
+            <div class="fringe">ENVÍO GRATIS POR COMPRAS SOBRE $50.000</div>
+            <div class="swiper swiper-home">
+                <div class="swiper-wrapper">
+                    <img class="swiper-slide" src="https://www.stoked.cl/media/weltpixel/owlcarouselslider/images/s/t/stoked_trajes_de_ban_o-01.jpg" alt="">
+                    <img class="swiper-slide" src="https://www.stoked.cl/media/weltpixel/owlcarouselslider/images/s/t/stoked_trajes_web.jpg" alt="">
+                    <img class="swiper-slide" src="https://www.stoked.cl/media/weltpixel/owlcarouselslider/images/s/t/stoked_summer_sale_2023_web.jpg" alt="">
+                </div>
+                 <!-- scrollbar -->
+                <div class="scrollbar-home swiper-scrollbar"></div>
+            </div>
+        </section>
+
+        <section class="banners section swiper swiper-banners">
+            <div class="banner__carousel-container swiper-wrapper" id="banners__carousel">
+                <figure class="swiper-slide" >
+                    <img src="https://www.stoked.cl/media/wysiwyg/STOKED_SUMMER_SALE_2023-01_4.png" alt="">
+                </figure>
+                <figure class="swiper-slide">
+                    <img src="https://www.stoked.cl/media/wysiwyg/STOKED_SUMMER_SALE_2023-03_3.png" alt="">
+                </figure>
+                <figure class="swiper-slide">
+                    <img src="https://www.stoked.cl/media/wysiwyg/STOKED_SUMMER_SALE_2023-02_4.png" alt="">
+                </figure>
+            </div>
+             <!-- scrollbar -->
+             <div class="scrollbar-pagination flex">
+                <div class="scrollbar-banners swiper-scrollbar"></div>
+                <div class="swiper-pagination"></div>
+             </div>
+        </section>
+
+        <section class="products section">
+            <div class="section__title">
+                <h3>LO QUE LA ESTÁ LLEVANDO</h3>
+            </div>
+            <div class="swiper swiper-products">
+                <div class="swiper-wrapper">
+                    <div class="product-card swiper-slide">
+                        <img class="product__img" src="https://www.stoked.cl/media/catalog/product/cache/1fc00a2a8ba9a3d69f0cf9861ad15b4e/s/2/s2j4n-bk-wvp_st186_1.jpg" alt="">
+                        <p class="product__name">TRAJE DE SURF G6 HOMBRE 4/3MM ECO</p>
+                        <div class="product__prices">
+                            <span class="product__price">$219.990</span>
+                            <span class="product__price-after">$209.990</span>
+                        </div>  
+                    </div>
+                    <div class="product-card swiper-slide">
+                        <img class="product__img" src="https://www.stoked.cl/media/catalog/product/cache/5e873923e7b2a110532ca63177c4940f/s/a/saeh1-02-wvp_st004_1.jpg" alt="">
+                        <p class="product__name">BOTÍN SURF 5.5 MM ECO</p>
+                        <div class="product__prices">
+                            <span class="product__price">$34.990</span>
+                            <span class="product__price-after">$24.493</span>
+                        </div>  
+                    </div>
+                    <div class="product-card swiper-slide">
+                        <img class="product__img" src="https://www.stoked.cl/media/catalog/product/cache/1fc00a2a8ba9a3d69f0cf9861ad15b4e/s/1/s1k38-01-wvp_st004_1.jpg" alt="">
+                        <p class="product__name">NEW TRAJE DE AGUA G6 WOMEN 5/4/3 MM HOOD ECO</p>
+                        <div class="product__prices">
+                            <span class="product__price">$239.990</span>
+                            <span class="product__price-after">$185.367</span>
+                        </div>  
+                    </div>
+                    <div class="product-card swiper-slide">
+                        <img class="" src="https://www.stoked.cl/media/catalog/product/cache/1fc00a2a8ba9a3d69f0cf9861ad15b4e/2/e/2etl-ds-wvp_st078_1.jpg" alt="">
+                        <p class="product__name">TRAJE DE SURF G4 5/4/3 MM MUJER ECO</p>
+                        <div class="product__prices">
+                            <span class="product__price">$189.990</span>
+                            <span class="product__price-after">$111.993</span>
+                        </div>  
+                    </div>
+                    <div class="product-card swiper-slide">
+                        <img class="" src="https://www.stoked.cl/media/catalog/product/cache/1fc00a2a8ba9a3d69f0cf9861ad15b4e/s/t/stacc-m_st026_1.jpg" alt="">
+                        <p class="product__name">MOCHILA SECA SURF EXPEDITION 30 LTS</p>
+                        <div class="product__prices">
+                            <span class="product__price">$39.990</span>
+                            <span class="product__price-after">$22.176</span>
+                        </div>  
+                    </div>
+                    <div class="product-card swiper-slide">
+                        <img class="" src="https://www.stoked.cl/media/catalog/product/cache/1fc00a2a8ba9a3d69f0cf9861ad15b4e/t/o/towstw21am01_st004_3.jpg" alt="">
+                        <p class="product__name">TOALLA LOGO</p>
+                        <div class="product__prices">
+                            <span class="product__price">$24.990</span>
+                            <span class="product__price-after">$12.495</span>
+                        </div>  
+                    </div>
+                </div>
+                <!-- navigation buttons -->
+                <div class="swiper-button swiper-button-prev"></div>
+                <div class="swiper-button swiper-button-next"></div>
+
+                <!--shadows-->
+                <div class="shadow-prev"></div>
+                <div class="shadow-next"></div>
+
+            </div>
+        </section>
+
+        <section class="categorys section">
+            <div class="section__title">
+                <h3>Categorías</h3>
+            </div>
+            <div class="categoris-container">
+                <div class="category">
+                    <img class="category__image" src="https://www.stoked.cl/media/STOKED/home/ART_MOBILE.png" alt="">
+                    <p class="category__name">Mujer</p>
+                </div>
+                <div class="category">
+                    <img class="category__image" src="https://www.stoked.cl/media/STOKED/home/SURF_MOBILE.png" alt="">
+                    <p class="category__name">Trajes de surf</p>
+                </div>
+                <div class="category">
+                    <img class="category__image" src="https://www.stoked.cl/media/STOKED/home/caluga-4_LOCAL.png" alt="">
+                    <p class="category__name">Hombre</p>
+                </div>
+                <div class="category">
+                    <img class="category__image" src="https://www.stoked.cl/media/STOKED/home/caluga-3_SUSTENTABILIDAD.png" alt="">
+                    <p class="category__name">Niños</p>
+                </div>
+                <div class="category">
+                    <img class="category__image" src="https://www.stoked.cl/media/STOKED/home/ART_MOBILE.png" alt="">
+                    <p class="category__name">Mujer</p>
+                </div>
+                <div class="category">
+                    <img class="category__image" src="https://www.stoked.cl/media/STOKED/home/SURF_MOBILE.png" alt="">
+                    <p class="category__name">Trajes de surf</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="subscription">
+                <h3 class="subscription__title">Subscríbete</h3>
+                <p>¡Informate de las noticias, eventos, promociones, descuentos, sorteos y concursos que tenemos para ti!</p>
+                <form action="" class="subscription-form">
+                    <input type="email" placeholder="Ingresa tu correo electronico" class="subscription__input">
+                    <div class="checkbutton flex">
+                        <input type="checkbox" id="accept-sub" name="accept" value="accept" />
+                        <label for="accept-sub">Acepto recibir promociones y novedades de Stoked y marcas representadas por Komax.</label>
+                    </div>
+                    <button class="subscription__button">Regístrarse</button>
+                </form>
+            </div>
+            <div class="footer__infos">
+                <div class="footer__info">
+                    <h3 class="footer__title">Te Informamos</h3>
+                    <div>
+                        <ul class="footer-list">
+                            <li><a href="#">Formulario de contacto</a></li>
+                            <li><a href="#">Chatea con nosotros</a></li>
+                            <li><a href="#">Nosotros</a></li>
+                            <li><a href="#">Terminos y condiciones</a></li>
+                            <li><a href="#">Nuestras tiendas</a></li>
+                        </ul>
+                        <ul class="footer-list">
+                            <li><a href="#">Costos de envío</a></li>
+                            <li><a href="#">Medios de pago</a></li>
+                            <li><a href="#">Estado de mi pedido</a></li>
+                            <li><a href="#">Cambios y devoluciones</a></li>
+                            <li><a href="#">Garantías</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__info">
+                    <h3 class="footer__title">Nuestras Tiendas</h3>
+                    <div>
+                        <ul class="footer-list">
+                            <li><a href="#">OMZ</a></li>
+                            <li><a href="#">AV.Costanera S/N</a></li>
+                            <li><a href="#">Matanza</a></li>
+                            <li><a href="#">+56932687133</a></li>
+                        </ul>
+                        <ul class="footer-list">
+                            <li><a href="#">ALTOMAR</a></li>
+                            <li><a href="#">AV. Comercio #2241</a></li>
+                            <li><a href="#">Pichilemu</a></li>
+                            <li><a href="#">+56932687132</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__social">
+                <h3 class="footer__title">Nuestras Redes</h3>
+                <div class="footer__socialLinks flex">
+                    <a href="" class="footer__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="" class="footer__social-link">
+                        <i class="ri-facebook-circle-line"></i>
+                    </a>
+                    <a href="" class="footer__social-link">
+                        <i class="ri-twitter-line"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="copy">
+            <p>2022 &#169; komax S.A. Todos los derechos reservadors | AV. del Parque 4314, Huechuraba, Santiago de Chile | sao@komax.cl</p>
+        </div>
+    </footer>
+
+    <!-- Scripts-->
+    <script src="./src/js/swiper/swiper-bundle.min.js"></script>
+    <script defer src="./src/js/main.js" ></script>
+</body>
+</html>

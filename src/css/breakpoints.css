@@ -1,0 +1,234 @@
+@media screen and (min-Width: 670px) {
+
+
+    .search-container{
+        grid-column: 2/3;
+    }
+
+    .categoris-container{
+        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: repeat(auto-fit,20rem);
+    }
+
+    
+    .footer__infos{
+        flex-direction: row;
+        gap: 4rem;
+    }
+    
+   
+}
+
+
+@media screen and (min-Width: 835px) {
+
+    .navbar{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .navbar__top{
+        grid-column: 1 / 4;
+        grid-row: 1 / 2;
+        flex-direction: row;
+    }
+
+    .navbar__toggle,.menu__logo{
+        display: none;
+    }
+
+    .navbar__menu,.button-hidden{
+        display: block;
+    }
+
+    .navbar__menu{
+        position: static;
+        grid-column: 2 / 4;
+        height: max-content;
+        width: max-content;
+        max-width: 59.3rem;
+        justify-self: end;
+    }
+
+    .list__menu{
+        flex-direction: row;
+        font-weight: 200;
+        font-size: 1.6rem;
+    }
+
+    .list__menu > li,
+    .list__menu > li:first-child{
+        white-space: nowrap;
+        border: none;
+    }
+
+    .nav__link i, .nav__link-hidden{
+        display: none;
+    }
+
+    .search-container {
+        grid-column: 3 / 4;
+    }
+    
+
+    div.scrollbar-banners.swiper-scrollbar,.swiper-pagination{
+        display: none;
+    }
+
+    .banner__carousel-container{
+        justify-content: space-evenly;
+    }
+    .banner__carousel-container > .swiper-slide{
+        width: 33.33%;
+    }
+
+    .banner__carousel-container > .swiper-slide img {
+        height: 30rem;
+    }
+
+    .banner__carousel-container > .swiper-slide:first-child{
+        margin-inline-start: 1rem;
+    }
+
+    /* .banner__carousel-container > .swiper-slide{
+        margin: 0 auto;
+    } */
+
+    .product-card {
+        font-size: 1.4rem;
+    }
+
+
+    .product-card{
+        font-size: 1.4rem;
+    }
+    .product__prices{
+        flex-flow: row;
+    }
+    .product__price-after{
+        font-size: 1.9rem;
+    }
+
+    .subscription{
+        padding: 3.4rem;
+        padding-block-end: 5rem;
+    }
+}
+
+@media screen and (min-Width: 1020px) {
+    
+    .section {
+        padding: 0 3.5rem;
+    }
+
+    .navbar{
+        grid-template-rows: repeat(2,1fr);
+        padding: 2.4rem 0;
+    }
+    .navbar__menu{
+        position: static;
+        grid-column: 2 / 3;
+        max-width: 70rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .navbar__top{
+        padding: 0 4.9rem;
+        border-bottom: 0.2px solid var(--text-color-alt);
+    }
+    .navbar__logo{
+        margin-inline-start: 4.9rem;
+    }
+
+
+    .nav__link{
+        margin: 0;
+    }
+
+    .search-container{
+        max-width: 23.3rem;
+        justify-self: end;
+    }
+
+    .banner__carousel-container{
+        width: 95%;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+}
+@media screen and (min-Width: 1320px) {
+    
+    /*-----------------------------------header------------------*/
+    .navbar{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        padding: 2.4rem 0;
+        row-gap: 1.7rem;
+    }
+
+    .navbar__top{
+        height: 3.4rem;
+        
+    }
+
+    
+    .list__menu{  
+        /* margin: 0 2rem; */
+        text-align: center;
+        gap: 4rem;
+    }
+
+    .search-container{
+        margin-inline-end: 4.9rem;
+    }
+
+    /*--------------------------Home Section-------------------------------*/
+
+    div.swiper-scrollbar-horizontal.swiper-scrollbar{
+        width: 60%;
+    }
+
+    
+    /*--------------------------banners section-----------------------------*/
+
+    .banner__carousel-container{
+        display: flex;
+        gap: 2rem;
+    }
+
+
+    div.scrollbar-banners.swiper-scrollbar,.swiper-pagination{
+        display: none;
+    }
+    
+
+    /*--------------------------product section-----------------------------*/
+
+    .swiper-products {
+        margin: 1rem 2.3rem;
+    }
+
+    
+    
+    /*--------------------------category section-----------------------------*/
+
+    .categoris-container{
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(1,1fr);
+    }
+
+    /*----------------------footer--------------------------*/
+
+    .footer-content{
+        padding: 1.6rem 7.8rem 5rem 7.8rem;
+        background: #EEEEEE;
+        gap: 9.4rem;
+        flex-direction: row;
+    }
+
+    .subscription{
+        padding: 0;
+    }
+
+}
