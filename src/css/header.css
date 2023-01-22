@@ -55,7 +55,7 @@
 .navbar__logo{
     max-width: 14.5rem;
     grid-column: 1/ 2;
-    grid-row: 2 / 3;
+    grid-row: 2 / 3 ;
     cursor: pointer;
 }
 
