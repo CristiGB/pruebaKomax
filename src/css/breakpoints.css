@@ -127,7 +127,7 @@
     .navbar__menu{
         position: static;
         grid-column: 2 / 3;
-        max-width: 70rem;
+        max-width: 65rem;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -138,6 +138,10 @@
     }
     .navbar__logo{
         margin-inline-start: 4.9rem;
+    }
+
+    .list__menu{
+        gap: 2rem;
     }
 
 
